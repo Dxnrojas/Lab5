@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: solid;
+    height: 70px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo{
+    border: solid;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+
+
+}
+#menu {
+    border: solid;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+
+}
+#banner{
+    /* border: solid; */
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(banner.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#productos{
+    border: solid;
+    height: 70vh;
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+
+}
+.marihuana{
+    border: solid;
+    height: 300px;
+    width:  300px;
+     
+}
+.innerblocks{
+    border: solid;
+    height: 50%;
+}
+.bottomblock{
+    border: solid red;
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#asd{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
